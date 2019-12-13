@@ -9,6 +9,11 @@ import math
 # * owal
 
 class Triangle:
+    """
+    Args:
+        a: lenght of triangle base
+        h: height of triangle
+    """
     def __init__(self, a, h):
         self.a = a
         self.h = h
@@ -18,6 +23,10 @@ class Triangle:
 
 
 class Square:
+    """
+    Args:
+        a: lenght of square side
+    """
     def __init__(self, a):
         self.a = a
 
@@ -26,6 +35,11 @@ class Square:
 
 
 class Rectangle:
+    """
+    Args:
+        a: lenght of 1st rectangle side
+        b: lenght of 2nd rectangle side
+    """
     def __init__(self, a, b):
         self.a = a
         self.b = b
@@ -35,6 +49,10 @@ class Rectangle:
 
 
 class Cube:
+    """
+    Args:
+        a: lenght of cube side
+    """
     def __init__(self, a):
         self.a = a
 
@@ -46,6 +64,10 @@ class Cube:
 
 
 class Tetrahedron:
+    """
+    Args:
+        a: edge length (assumes equals edge lengts)
+    """
     def __init__(self, a):
         self.a = a
 
@@ -57,6 +79,12 @@ class Tetrahedron:
 
 
 class Oval:
+    """
+    Args:
+        a: semimajor axis a
+        b: semimajor axis b
+    b≦a
+    """
     def __init__(self, a, b):
         self.a = a
         self.b = b
